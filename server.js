@@ -16,8 +16,8 @@ const app = express();
 // CORS Configuration
 // -----------------------
 const allowedOrigins = [
-  "http://localhost:8080", // React frontend
-  "http://localhost:8081", // React frontend
+  "https://mkfrx.netlify.app",
+  "https://admin-mkfrx.netlify.app",
 ];
 
 app.use(
